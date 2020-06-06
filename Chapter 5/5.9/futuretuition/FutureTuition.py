@@ -8,11 +8,9 @@ tuitionTenYears = 0;
 
 for i in range(1,14):
     tuition += tuition * PERCENT_INCREASE;
-    print(tuition);
     if(i == 9):
         totalCostFourYears = tuitionTenYears = tuition;
     if(i > 9):
-        print("TUTION",totalCostFourYears)
         totalCostFourYears += tuition;
           
 print("The tuition in ten years is",tuitionTenYears);
