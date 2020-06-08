@@ -1,3 +1,5 @@
+''' Chapter 6.1 '''
+
 def main():
     global count;       # declare global variable
     count = 0;          # initialize global variable
