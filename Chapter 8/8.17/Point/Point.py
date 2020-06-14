@@ -21,4 +21,4 @@ class Point:
     
     # This acts like overridden toString method in Java    
     def __str__(self):
-        return "(" + str(self.__x) + "," + str(self.__y) + ")"
+        return "(" + str(self.__x) + ", " + str(self.__y) + ")"
