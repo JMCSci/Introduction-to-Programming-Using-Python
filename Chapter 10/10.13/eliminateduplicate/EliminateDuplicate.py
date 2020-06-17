@@ -6,8 +6,6 @@ def main():
     lst = [eval(x) for x in elements]
     eliminateDuplicates(lst)
 
-# 1 2 3 2 1 6 3 4 5 2
-
 def eliminateDuplicates(lst):
     size = len(lst)
     lst2 = []
@@ -18,8 +16,10 @@ def eliminateDuplicates(lst):
                 count += 1
         if(count < 2):
             lst2.append(i)
-                                  
-    print(lst2)
+    
+    print("The distinct numbers are: ", end = "")
+    for i in lst2:
+        print("", end = str(i) + " ")
 
 if __name__ == "__main__":
     main()
