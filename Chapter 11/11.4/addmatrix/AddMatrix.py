@@ -47,7 +47,7 @@ def addMatrix(a, b):
 def printMatrix(matrix):
     for row in matrix:
         for value in row:
-            print(format(value, ".1f"), end = format(" ", ">2s"))
+            print(format(value, ".1f"), end = format(" ", "<2s"))
         print()
     
     print()
