@@ -6,28 +6,18 @@ class Location:
         self.column = column
         self.maxValue = maxValue
         
-    def createMatrix(self, numbers0, numbers1, numbers2, rows, columns):
+    def createMatrix(self, rows, columns):
         a = []
         r = rows
         c = columns
         
-        elements0 = numbers0.split()
-        elements1 = numbers1.split()
-        elements2 = numbers2.split()
-        
-        for i in range(rows):
-            list1 = [eval(elements0[x]) for x in range(i * r, i * c + r)]
-            a.append(list1)
-            
-        for j in range(rows):
-            list2 = [eval(elements1[y]) for y in range(j * r, j * c + r)]
-            a.append(list2)
-        
-        for k in range(rows):
-            list3 = [eval(elements2[z]) for z in range(k * r, k * c + r)]
-            a.append(list3)  
+        for i in range(0,rows):
+            a.append([])
+            for j in range(0, columns):
+                values = eval(input("Enter values for row: "))
+                a[i].append(values)
+           
         return a
-    
     
     def locateLargest(self, a):
         numberOfRows = len(a)
@@ -49,4 +39,4 @@ class Location:
         return Location(self.row, self.column, self.maxValue)
     
     def __str__(self):
-        return "The location of the largest element is", str(self.maxValue) + " at (" + str(self.row) + "," + str(self.column) + ")" 
+        return "The location of the largest element is" + str(self.maxValue) + " at (" + str(self.row) + "," + str(self.column) + ")" 

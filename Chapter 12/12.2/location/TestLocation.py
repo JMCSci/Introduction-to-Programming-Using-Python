@@ -9,10 +9,7 @@ from Location import Location
 def main():
     rows, columns = eval(input("Enter the number of rows and columns in the list: "))
     location1 = Location()
-    numbers0 = input("Enter row 0: ") 
-    numbers1 = input("Enter row 1: ") 
-    numbers2 = input("Enter row 2: ") 
-    a = location1.createMatrix(numbers0, numbers1, numbers2, rows, columns)
+    a = location1.createMatrix(rows, columns)
     location2 = location1.locateLargest(a)
     print(location2.__str__())
     
