@@ -2,8 +2,7 @@
 
 from Account import Account
 
-def main(): 
-    # Create accounts    
+def main():     
     accountList = []
     createAccounts(accountList)
     atm(accountList)
