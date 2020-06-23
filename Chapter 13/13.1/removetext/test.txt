@@ -1,0 +1,7 @@
+Apple confirmed on Monday that it would design the processors inside its new Mac computers, ditching Intel, its partner of 15 years, and completing a yearslong effort to control the core components underpinning its main devices.
+
+Apple said that the first Macs with Apple chips would arrive by year’s end, and that the full transition from Intel to Apple chips would take two years.
+
+Apple’s move, announced at the start of its annual developers conference, is the latest sign of the growing power and independence of the biggest tech companies.
+
+Making the silicon chips that power computers has been a multibillion-dollar industry for decades, creating giants like Intel that built their businesses by supplying PC makers with the processors for their devices.
